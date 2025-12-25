@@ -29,14 +29,6 @@ const Home = () => {
        <Link href="/profile" style={styles.link}>
         <ThemedText>Profile</ThemedText>
       </Link>
-
-       <Link href="/books" style={styles.link}>
-        <ThemedText>Books</ThemedText>
-      </Link>
-
-       <Link href="/create" style={styles.link}>
-        <ThemedText>Create</ThemedText>
-      </Link>
     </ThemedView>
   )
 }
